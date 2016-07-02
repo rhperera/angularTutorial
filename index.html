@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.min.css" charset="utf-8">
+    <link rel="stylesheet" href="bower_components\bootstrap-material-design\dist\css\bootstrap-material-design.css" charset="utf-8">
+    <link rel="stylesheet" href="bower_components\bootstrap-material-design\dist\css\ripples.min.css" charset="utf-8">
+    <script src="js\angular.min.js" charset="utf-8"></script>
+    <script src="js\angular-route.min.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>Angular Tutorial</title>
+  </head>
+  <body ng-app="app">
+    <div ng-include="'navbar.html'"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Welcome to our AngularJS Tutorial</h1>
+        </div>
+      </div>
+      <!--Angular View-->
+      <div class="well bs-component" ng-view></div>
+    </div>
+  </body>
+  <script src="bower_components\jquery\dist\jquery.min.js" charset="utf-8"></script>
+  <script src="bower_components\bootstrap-material-design\dist\js\material.min.js" charset="utf-8"></script>
+  <script src="bower_components\bootstrap-material-design\dist\js\ripples.min.js" charset="utf-8"></script>
+</html>
